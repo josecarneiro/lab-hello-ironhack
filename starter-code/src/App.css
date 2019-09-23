@@ -1,3 +1,8 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -7,16 +12,64 @@
 }
 
 .App-header {
+  padding: 60px 40px;
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.App-nav {
+  padding: 0 40px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.Say-hello {
+  width: 60vw;
+  line-height: 1em;
+  text-align: left;
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+
+.Header-desc {
+  text-align: left;
+  font-weight: 10;
+  width: 50vw;
+}
+
+.Awesome-button {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.Advantages {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 50px 20px;
+}
+
+.Card {
+  width: 20%;
+  text-align: left;
+}
+
+.Card-image {
+  max-width: 100%;
 }
