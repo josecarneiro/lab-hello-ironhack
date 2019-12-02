@@ -2,8 +2,8 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 
-import menu from './images/menu-top.svg';
-import ironhack from './images/ironhack-logo.svg';
+import menu from './../images/menu-top.svg';
+import ironhack from './../images/ironhack-logo.svg';
 
 
 class Navbar extends Component {
