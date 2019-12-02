@@ -1,0 +1,11 @@
+button{
+  padding: 1em 1em;
+  border-radius: 12px;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #282c34
+}
