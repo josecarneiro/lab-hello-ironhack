@@ -1,6 +1,10 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 5%;
 }
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -9,14 +13,43 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+ display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  line-height:0.5;
+  vertical-align: middle;
+ 
+
+ 
 }
+
+.App-header > h1 {
+  margin: 0;
+ 
+
+
+ 
+  font-size: 13vh;
+}
+
+
 
 .App-link {
   color: #09d3ac;
+}
+
+.CardContainer {
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+.card {
+  
+  text-align: left;
+  min-height: 300px;
 }
