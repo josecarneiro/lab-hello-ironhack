@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Main from './Main';
 import Button from './Button';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -15,6 +16,9 @@ class App extends Component {
         </header>
         <div>
           <Button />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     );
