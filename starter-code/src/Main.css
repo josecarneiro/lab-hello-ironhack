@@ -1,0 +1,18 @@
+.mainBody {
+  background-color: #282c34;
+}
+
+.title-h1 {
+  font-size: 3em;
+  max-width: 450px;
+  text-align: justify;
+  margin-left: 50px;
+}
+
+.firstParagraph {
+  font-size: 0.9em;
+  max-width: 350px;
+  text-align: left;
+
+  margin-left: 50px;
+}
