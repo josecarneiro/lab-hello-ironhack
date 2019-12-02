@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+.header{
+  background-color: rgb(42, 36, 78);
+  color: white;
+}
+
+nav {
+  background-color: rgb(42, 36, 78);
+}
+
