@@ -1,0 +1,22 @@
+#intro {
+  color: white;
+  background-color: #282c34;
+  height: 600px;
+  /* background-image: url("../images/react-logo.svg"); */
+}
+
+#ingress {
+  width: 250px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+  margin-top: -40px;
+}
+
+#heading {
+  margin-left: 60px;
+  font-size: 62px;
+}
+
+.icon {
+  margin-right: 30px;
+}

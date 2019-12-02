@@ -1,0 +1,23 @@
+#box-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 130px;
+    margin-right: 0px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+  }
+  
+  .boxes {
+    height: auto;
+    width: auto;
+  }
+  
+  .box-image {
+    height: 120px;
+    width: 120px;
+  }
+  
+  .p-text {
+      padding-right: 120px;
+      color: grey;
+  }

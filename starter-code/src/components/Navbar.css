@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  #ironhack-logo {
+    margin-left: 40px;
+    margin-top: 20px
+  }
