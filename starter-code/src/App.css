@@ -11,7 +11,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -19,4 +19,30 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.content {
+  width: 50%;
+  text-align: left;
+  padding-left: 2em;
+}
+
+button {
+  background-color: white;
+  border-radius: 5px;
+  height: 4em;
+  padding: 1em;
+  margin: 1em;
+  font-size: 1em;
+  border: none;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h3 {
+  font-weight: 100;
+  width:50%;
+  margin-bottom: 2em;
 }
