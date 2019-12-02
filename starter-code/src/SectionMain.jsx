@@ -12,19 +12,19 @@ class SectionMain extends Component{
                 </article>
 
                 <article className='declarative-box'>
-                <img src="./images/icon1.png" alt="articleImage" className='box-image'/>
+                <img src="./images/icon2.png" alt="articleImage" className='box-image'/>
                 <p className='box-title'>Components</p>
                 <p className='box-text'>Build encapsuled components that manage their state</p>
                 </article>
 
                 <article className='declarative-box'>
-                <img src="./images/icon1.png" alt="articleImage" className='box-image'/>
+                <img src="./images/icon3.png" alt="articleImage" className='box-image'/>
                 <p className='box-title'>Single-way</p>
                 <p className='box-text'>A set of immutable values are passed to the component's</p>
                 </article>
 
                 <article className='declarative-box'>
-                <img src="./images/icon1.png" alt="articleImage" className='box-image'/>
+                <img src="./images/icon4.png" alt="articleImage" className='box-image'/>
                 <p className='box-title'>JSX</p>
                 <p className='box-text'>Statically-typed, designed to tun on modern browser</p>
                 </article>
