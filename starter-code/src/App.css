@@ -1,9 +1,13 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
   height: 40vmin;
+}
+
+h3{
+  margin: 0;
 }
 
 .App-header {
@@ -11,12 +15,29 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+  font-size: calc(25px + 2vmin);
   color: white;
+  padding-left: 2em;
+  padding-right: 50%;
+}
+
+h1{
+  margin-bottom: 0;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.benifits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 5% 15%;
+}
+
+.benimg{
+  width: 6em
 }
