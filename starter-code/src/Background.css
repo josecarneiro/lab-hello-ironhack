@@ -1,0 +1,16 @@
+.BackgroundIcon {   
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.LogoIcon {
+  width: 50%;
+  opacity: 0.1;
+}
+
+.LogoIcon2 { 
+  width: 30%;
+  opacity: 0.1;
+}
