@@ -1,0 +1,30 @@
+.icon-box {
+    width: 20%;
+
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.footer-thing {
+    padding-top: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer-thing h3 {
+    font-size: 3rem;
+    color: #282c34;
+    max-width: 90%;
+}
+
+.footer-thing p {
+    font-size: 2rem;
+    text-justify: newspaper;
+    max-width: 90%;
+}
+
+.footer-thing img {
+    max-width: 90%;
+}
