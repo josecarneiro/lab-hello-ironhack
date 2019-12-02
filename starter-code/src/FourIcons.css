@@ -1,0 +1,33 @@
+.DivContainer { 
+  margin: 3em;
+  flex-wrap: nowrap;
+}
+
+.IconsContainer {
+  background: white; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.TitlesContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  display: flex; 
+  flex-direction: row;
+}
+
+.titleH3 { 
+  font-size: 20px;
+}
+
+.TextP { 
+  text-align: left;
+}
+
+.Seperator { 
+  flex-wrap: nowrap;
+  width: 15em;
+}
