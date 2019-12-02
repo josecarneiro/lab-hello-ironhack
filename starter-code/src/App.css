@@ -1,5 +1,8 @@
+
 .App {
+  font-family: sans-serif;
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -19,4 +22,59 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+nav {
+  padding: 1.5em 2.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.First {
+  padding: 5em;
+  color: white;
+  height: 40em;
+  text-align: left;
+  width: 30em;
+}
+.First h1 {
+  font-size: 5em;
+}
+
+.First p {
+  font-size: large;
+  margin-bottom: 5em;
+  width: 15em;
+  line-height: 1.5em;
+}
+
+.First button {
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 8px;
+}
+
+.Last {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 6em;
+}
+
+.cards {
+  text-align: left;
+  width: 10em;
+}
+
+.cards h2 {
+  padding-left: 0.6em;
+}
+
+.cards p {
+  color: gray;
+  padding-left: 1em;
+  line-height: 1.5em;
 }
