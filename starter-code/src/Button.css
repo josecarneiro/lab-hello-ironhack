@@ -1,0 +1,13 @@
+.buttons{
+    margin: 5.3em auto;
+    width: 90vw;
+}
+.landing-button{
+    /* width: 10em; */
+    color: #2D3252;
+    font-family: sans-serif;
+    font-size: 1.6em;
+    padding: 0.6em;
+    border-radius: 4px;
+
+}

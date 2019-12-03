@@ -1,0 +1,25 @@
+  
+.title{
+    margin: 6em auto 0;
+    width: 90vw;
+}
+
+.title h1{
+    font-size: 5.4em;
+    width: 50%;
+    color: #FFF;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 100%;
+    /* margin-left: 0.6em; */
+}
+
+.title h3{
+    font-size: 1.5em;
+    width: 30%;
+    color: #FFF;
+    text-align: left;
+    font-weight: 100;
+    margin-top: 0.4em;
+    /* margin-left: 0.6em; */
+}
