@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.App-header {
+  background-image: url(require('./images/react-logo.svg'));
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0 100px;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  img {
+    max-width: 50px;
+  }
+  padding-bottom: 50px;
+}
+.button {
+  all: unset;
+  background-color: white;
+  color: #282c34;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.whitepart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px 100px;
+  text-align: left;
+  align-items: flex-start;
+  img {
+    width: 130px;
+  }
+  div {
+    width: 250px;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  h5 {
+    font-size: 1em;
+  }
+}
