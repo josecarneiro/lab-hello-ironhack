@@ -1,22 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+.App-main {
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 2rem;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.navbar {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  background-color: #282c34;
+  flex: 1 1 6rem;
+}
+
+.ironHackLogo {
+}
+
+.menu-icon {
+}
+
+.heading-main {
+  width: 65%;
+}
+
+.para-main {
+  width: 65%;
+}
+
 .App-link {
-  color: #09d3ac;
+  width: 30%;
+  background-color: #fafafa;
+  color: black;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+.App-types {
+  display: flex;
+  width: 100%;
+  min-height: 50vh;
+  margin: 2rem;
+}
+
+.img-second {
+  width: 8rem;
+  height: 8rem;
+}
+
+.p-seconds {
+  width: 50%;
+}
+
+@media (min-width: 950px) {
+  .App-link {
+    width: 12rem;
+  }
 }
