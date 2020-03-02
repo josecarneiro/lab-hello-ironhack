@@ -1,9 +1,17 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
+  margin-left: 20px;
+  margin-top: 15px
+}
+
+.App-menu {
+  height: 3vmin;
+  margin-right: 20px;
+  margin-top: 15px
 }
 
 .App-header {
@@ -11,12 +19,66 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-header-content{
+  padding-bottom: 150px;
+  margin-left: 20px
+}
+
+.App-header-content h1 {
+  font-size: 5rem;
+}
+
+.App-header-content h1 p {
+  font-size: 15px;  
+}
+
+.App-header-content button {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.App-header-content button a {
+  text-decoration: none;
+}
+
 .App-link {
-  color: #09d3ac;
+  color: black;
+}
+
+.App-NavBar {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+
+.App-icons{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+  align-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%
 }

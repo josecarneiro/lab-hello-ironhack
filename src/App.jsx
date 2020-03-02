@@ -1,29 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/ironhack-logo.svg';
+import menutop from './images/menu-top.svg';
 
 import './App.css';
+import AppHeader from './AppHeader'
+import AppIcons from './AppIcons'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        
+        <nav className="App-NavBar">
+           <img src={logo} className="App-logo" alt="logo" />
+           <img src={menutop} className="App-menu" alt="logo" />  
+        </nav>
+
+        <AppHeader />
+
+        <AppIcons />
+    
+      
       </div>
     );
   }
 }
 
 export default App;
+
