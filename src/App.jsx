@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-
-import './App.css';
+// import image from '../public/images/logo192.png';
+import Header from './components/Header';
+import DeclarativeCard from './components/Declarative-card';
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header />
+        <section className="App-second-fold">
+          <DeclarativeCard />
+          <div>
+            <h4>Components</h4>
+            <p>Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+          </div>
+          <div>
+            <h4>Single-way</h4>
+            <p>Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+          </div>
+          <div>
+            <h4>JSX</h4>
+            <p>Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+          </div>
+        </section>
       </div>
     );
   }
