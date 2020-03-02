@@ -48,10 +48,25 @@
   padding: 15px;
   font-size: 0.9em;
   font-weight: bold;
+  border-radius: 4px;
+  margin: 10px 0;
 }
 
 main {
   display: flex;
-  margin: 60px auto;
+  margin: 10% auto;
   width: 80%;
+}
+
+.main-card {
+  width: 20%;
+  margin: 20px;
+}
+
+.main-card img {
+  width: 120px;
+}
+
+main p {
+  font-weight: lighter;
 }
