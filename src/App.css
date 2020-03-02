@@ -59,7 +59,7 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: black;
 }
 
 .App-NavBar {
@@ -70,4 +70,15 @@
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
+}
+
+.App-icons{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+  align-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%
 }
