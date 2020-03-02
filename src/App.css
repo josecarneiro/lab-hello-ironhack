@@ -20,3 +20,35 @@
 .App-link {
   color: #09d3ac;
 }
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  float: left;
+}
+
+.first-section {
+  height: 50vh;
+  margin-top: 80px;
+}
+
+.white-background {
+  background-color: white;
+  color: darkslategray;
+  margin-top: 20px;
+  height: 50vh;
+}
+
+.logo {
+  left: 0;
+  right: auto;
+}
+
+header ul {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
