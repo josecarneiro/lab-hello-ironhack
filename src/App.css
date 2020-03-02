@@ -17,6 +17,45 @@
   color: white;
 }
 
+nav{
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5em;
+  padding-right: 5em;
+  height: 3em;
+  padding-top: 0.5em;
+}
+
+
+.body-contend{
+  color:white;
+  text-align: left;
+
+}
+
+.body-contend h1{
+  font-size: 4.5em;
+  width: 55%;
+  line-height: 1em;
+  word-spacing: 0.1em;
+}
+
+.body-contend h4{
+  width: 35%;
+  font-weight: 300;
+}
+
+.body-contend button{
+  background-color: white;
+  color:#282c34;
+  border: 1.5em solid white;
+  font-weight: 700;
+  font-size: 0.8em;
+  border-radius: 0.5em;
+}
+
+
 .App-link {
   color: #09d3ac;
 }
