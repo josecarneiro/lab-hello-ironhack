@@ -8,7 +8,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 50vh;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -20,6 +19,7 @@
 }
 
 .App-header nav {
+  margin-top: 2.5%;
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -29,6 +29,16 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 90%;
+}
+
+.App-header section h1 {
+  font-size: 3em;
+  width: 35%;
+}
+.App-header section p {
+  font-size: 1em;
+  width: 25%;
 }
 
 .App-link {
@@ -38,17 +48,11 @@
 main {
   display: flex;
   justify-content: space-around;
-  margin: 10% auto;
 }
 
 main div {
   max-width: 20%;
   text-align: left;
-}
-
-main div h3,
-p {
-  margin-left: 10%;
 }
 
 main div p {
