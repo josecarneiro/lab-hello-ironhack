@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/ironhack-logo.svg';
+import menutop from './images/menu-top.svg';
 
 import './App.css';
 
@@ -7,19 +8,38 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
+        <nav className="App-NavBar">
+           <img src={logo} className="App-logo" alt="logo" />
+           <img src={menutop} className="App-menu" alt="logo" />  
+        </nav>
+
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          
+          <div className="App-header-content">
+          
+          <h1>
+            Say hello to <br />
+            ReactJS
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            You will learn a Frontend <br />
+            framework from scratch, to <br />
+              become an Ninka Developer
           </p>
-          <a
+          
+          </h1>
+          
+          <button><a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Learn React
+            >
+            Awesome!
           </a>
+          </button>
+
+          </div>
         </header>
       </div>
     );
@@ -27,3 +47,4 @@ class App extends Component {
 }
 
 export default App;
+
