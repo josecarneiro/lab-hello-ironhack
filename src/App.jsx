@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 
 import './App.scss';
-import AppMessage from './AppMessage';
-import AppNavBar from './AppNavBar';
-import AppBody from './AppBody';
+import AppMessage from './component/AppMessage';
+import AppNavBar from './component/AppNavBar';
+import AppBody from './component/AppBody';
 
 class App extends Component {
 	render() {

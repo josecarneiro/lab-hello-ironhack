@@ -2,12 +2,11 @@ import React from 'react';
 // import logo from '../ironhack-log.svg';
 
 const AppNavBar = () => {
-	//....
+	let logo = '/images/ironhack-logo.svg';
 	return (
 		<div>
-			{/* <img src={logo} /> */}
 			<nav>
-				<img src=".././publicimages\ironhack-logo.svg" alt="image" />
+				<img src={logo} alt="image" />
 			</nav>
 		</div>
 	);
