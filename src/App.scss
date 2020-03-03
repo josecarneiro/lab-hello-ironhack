@@ -9,6 +9,7 @@
 }
 
 .App-header {
+
 	background-color: #282c34;
 	min-height: 100vh;
 	display: flex;
@@ -18,6 +19,10 @@
 	font-size: calc(10px + 2vmin);
 	color: white;
 	padding: 5vh 10vh;
+
+	img:first-child{
+		height: 6vh;
+	}
 }
 
 .App-link {
@@ -39,7 +44,15 @@
 
 .app-body {
 	display: flex;
-	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	img {
+		width: 8em;
+	}
+	p {
+		font-size: 1em;
+		max-width: 16em;
+	}
 
 	div {
 		flex-direction: column;
