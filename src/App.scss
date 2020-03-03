@@ -9,9 +9,8 @@
 }
 
 .App-header {
-
 	background-color: #282c34;
-	min-height: 100vh;
+	min-height: 95vh;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -20,7 +19,7 @@
 	color: white;
 	padding: 5vh 10vh;
 
-	img:first-child{
+	img:first-child {
 		height: 6vh;
 	}
 }
@@ -51,7 +50,7 @@
 	}
 	p {
 		font-size: 1em;
-		max-width: 16em;
+		max-width: 25em;
 	}
 
 	div {
