@@ -1,0 +1,60 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 95vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	padding: 5vh 10vh;
+
+	img:first-child {
+		height: 6vh;
+	}
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+.App-navbar {
+	align-self: flex-start;
+}
+
+.App-header-message {
+	display: flex;
+	align-items: flex-start;
+	text-align: justify;
+	flex-direction: column;
+	width: 40vh;
+	justify-items: flex-start;
+}
+
+.app-body {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	img {
+		width: 8em;
+	}
+	p {
+		font-size: 1em;
+		max-width: 25em;
+	}
+
+	div {
+		flex-direction: column;
+	}
+	margin: 10vh;
+}
