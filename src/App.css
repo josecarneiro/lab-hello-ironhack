@@ -42,6 +42,8 @@
   color: white;
   padding: 5vh 10vh;
   margin-bottom: 70px;
+  background-image: url('./react-logo.svg');
+  background-position: 25% 50%, center left, top right, top left, bottom left, center right;
 }
 
 .logo-ironhack {
@@ -64,6 +66,7 @@
   flex-direction: column;
   width: 60vh;
   justify-items: flex-start;
+
 }
 
 .App-message h1 {
@@ -101,5 +104,4 @@ button {
   background-color: white;
   font-size: 20px;
   font-weight: 600;
-  /* background-image: './images/react-logo.svg'; */
 }
