@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +19,87 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.App-logo img {
+  height: 14vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 5vh 10vh;
+  margin-bottom: 70px;
+}
+
+.logo-ironhack {
+  margin-bottom: 70px;
+}
+
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App-navbar {
+  align-self: flex-start;
+}
+
+.App-message {
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  flex-direction: column;
+  width: 60vh;
+  justify-items: flex-start;
+}
+
+.App-message h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.App-message p {
+  font-size: 25px;
+  width: 40vh;
+  margin-top: 0;
+}
+
+.app-body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.app-body img {
+  width: 8em;
+}
+
+.app-body p {
+  font-size: 1em;
+  max-width: 25em;
+}
+
+button {
+  margin-top: 35px;
+  width: 20vh;
+  height: 8vh;
+  border-radius: 5%;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  /* background-image: './images/react-logo.svg'; */
 }
