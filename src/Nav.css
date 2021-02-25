@@ -1,0 +1,5 @@
+.navbar {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
