@@ -1,22 +1,85 @@
-.App {
-  text-align: center;
+h1 {
+  font-size: 3.2em;
+  margin-bottom: 0px;
+  margin-top: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+h2 {
+  font-size: 1.2em;
+  font-weight: 100;
+  max-width: 350px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  background-color: #282c34;
   color: white;
+  padding: 0 75px;
+}
+
+.App-main {
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+  color: white;
+  padding: 150px 75px;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.App-Navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.App-logo {
+  position: absolute;
+  left: 75px;
+  top: 25px;
+}
+
+.App-menu {
+  position: absolute;
+  right: 75px;
+  top: 25px;
+}
+
+.App-button {
+  background-color: white;
+  color: #282c34;
+  padding: 15px 20px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.App-info {
+  display: flex;
+  padding: 100px;
+}
+
+.App-info-block {
+  padding: 0 20px;
+}
+
+.App-info-block h4 {
+  margin-bottom: 0;
+  font-size: 1.8em;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.App-info-block p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.App-info-block img {
+  max-width: 150px;
 }
